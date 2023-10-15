@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(https://img.freepik.com/free-photo/buns-spoon-powder_23-2147742724.jpg?size=626&ext=jpg&ga=GA1.1.783724358.1697279446&semt=ais) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color:#008000;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration:aqua;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

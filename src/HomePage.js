@@ -2,7 +2,8 @@ import React from 'react';
 
 const HomePage = () => {
   const containerStyle = {
-    maxWidth: '800px',      // Container dimensions
+    maxWidth: '800px',
+    MAxHeight:'750px',     // Container dimensions
     margin: '0 auto',       // Center horizontally
     padding: '20px',        // Padding
     backgroundColor: '#f7f7f7',  // Background color

@@ -1,6 +1,6 @@
 /* HomePage.css */
 .container {
-  background-image: url('your-background-image.jpg');
+  background-image: url('./images/heropic.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

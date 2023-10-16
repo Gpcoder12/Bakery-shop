@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 import AboutPage from './AboutPage';
 import MenuPage from './MenuPage';
 import Footer from './Footer';
-import './app.css';
+import './App.css';
 
 
 function App() {

@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url('your-background-image.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -30,6 +29,9 @@ nav a {
   padding: 100px;
   color: white;
 }
+.h1{text-align: center;
+    color: #008080;}
+
 
 /* About and Menu page styles (you can customize further) */
 .page-container {

@@ -12,6 +12,7 @@ const Footer = () => {
           <div className="col-md-6 text-right">
             <p>Contact: gops@sweetharmonybakery.com</p>
           </div>
+          <small>copyright sweetharmonybakery 2023</small>
         </div>
       </div>
     </footer>

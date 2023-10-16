@@ -1,44 +1,51 @@
+/* Reset some default styles and set a background image */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: url(https://img.freepik.com/free-photo/buns-spoon-powder_23-2147742724.jpg?size=626&ext=jpg&ga=GA1.1.783724358.1697279446&semt=ais) no-repeat center center fixed;
+  font-family: Arial, sans-serif;
+  background-image: url('your-background-image.jpg');
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
-
+/* Navigation styles */
 nav {
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  background-color:#008000;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 1rem;
 }
 
 nav a {
-  color: rgb(255, 255, 255);
-  text-decoration:aqua;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 1rem;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* App.css */
-
-/* Style the home container */
+/* Home page styles */
 .home-container {
-  max-width:  650px;
-  max-height:650px;
-  border: 3px solid teal;
-  margin: 0 auto; /* Center the container horizontally */
-  padding: 20px; /* Add some padding to the container */
-  background-color: #f7f7f7; /* Background color of the container */
+  text-align: center;
+  padding: 100px;
+  color: white;
 }
+
+/* About and Menu page styles (you can customize further) */
+.page-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styles */
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
 

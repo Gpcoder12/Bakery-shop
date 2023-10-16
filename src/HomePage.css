@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color:white; /* Change text color to a dark color (e.g., dark gray) */
+  color:008080; /* Change text color to a dark color (e.g., dark gray) */
   text-align: center;
   padding: 80px 0; /* Adjust top and bottom padding, leave 0 for left and right padding */
   max-height: 700px; /* Adjust the container height (viewport height) */

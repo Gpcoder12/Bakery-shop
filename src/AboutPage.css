@@ -3,7 +3,7 @@
 /* Style the container */
 .about-container {
     max-width: 800px;
-    min-height: 650px; /* You can adjust the max-width to control the container's dimensions */
+    max-height:750px; /* You can adjust the max-width to control the container's dimensions */
     margin: 0 auto; /* Center the container horizontally */
     padding: 20px; /* Add some padding to the container */
     background-color: F; /* Background color of the container */
@@ -11,9 +11,11 @@
   
   /* Style the heading */
   h1 {
-    font-size: 35px; /* Adjust the font size as needed */
+    font-size: 28px; /* Adjust the font size as needed */
     color: #008080; /* Text color for the heading */
     margin-bottom: 20px; /* Space below the heading */
+    text-align: center;
+    text-decoration: wavy;
   }
   
   /* Style the paragraph text */

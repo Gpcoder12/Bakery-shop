@@ -29,3 +29,16 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+/* App.css */
+
+/* Style the home container */
+.home-container {
+  max-width:800px;
+  max-height: 800px;
+  border: 3px solid teal;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add some padding to the container */
+  background-color: #f7f7f7; /* Background color of the container */
+}
+

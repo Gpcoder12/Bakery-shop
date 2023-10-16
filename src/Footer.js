@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <p>&copy; {new Date().getFullYear()} Sweet Harmony</p>
+            <p>&copy; {new Date().getFullYear()} Sweet Harmony Bakery</p>
           </div>
           <div className="col-md-6 text-right">
             <p>Contact: gops@sweetharmonybakery.com</p>

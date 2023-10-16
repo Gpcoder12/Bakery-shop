@@ -17,11 +17,7 @@ function App() {
           <Route path="/about" component={AboutPage} />
           <Route path="/menu" component={MenuPage} />
           <Route path="/">
-            <div className="home-container">
-              <h1>Welcome to Sweet Harmony Bakery</h1>
-              
-              </div>
-          </Route>h
+          </Route>
         </Switch>
         <HomePage/>
         <MenuPage/>

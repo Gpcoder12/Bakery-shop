@@ -1,22 +1,27 @@
- /* HomePage.css */
+/* HomePage.css */
 .container {
   background-image: url('your-background-image.jpg');
-  background-size: cover; /* Cover the entire container */
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #fff; /* Text color */
-  text-align: center; /* Center-align text */
-  padding: 100px; /* Add padding for better visibility */
+  color: #333; /* Change text color to a dark color (e.g., dark gray) */
+  text-align: center;
+  padding: 80px 0; /* Adjust top and bottom padding, leave 0 for left and right padding */
+  height: 250vh; /* Adjust the container height (viewport height) */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
 }
 
 h1 {
-  font-size: 2.5em; /* Adjust the font size as needed */
-  text-transform: uppercase; /* Uppercase text */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+  font-size: 3em; /* Increase font size for the h1 element */
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #FF5733; /* Change the h1 text color (e.g., orange) */
 }
 
 p {
-  font-size: 1.7em; /* Adjust the font size as needed */
-  margin-top: 20px; /* Add space below the h1 */
+  font-size: 1.2em;
+  margin-top: 20px;
 }
-

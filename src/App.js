@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route,  Switch } from 'react-router-dom';
 import Navigation from './Navigation';
 import AboutPage from './AboutPage';
 import MenuPage from './MenuPage';
@@ -20,6 +20,8 @@ function App() {
               </div>
           </Route>
         </Switch>
+        <MenuPage/>
+        <AboutPage/>
         <Footer />
       </div>
     </Router>

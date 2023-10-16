@@ -5,6 +5,7 @@ import AboutPage from './AboutPage';
 import MenuPage from './MenuPage';
 import Footer from './Footer';
 import './App.css';
+import HomePage from './HomePage';
 
 
 function App() {
@@ -18,10 +19,11 @@ function App() {
           <Route path="/">
             <div className="home-container">
               <h1>Welcome to Sweet Harmony Bakery</h1>
-              <p>where every bite is a delight!</p>
+              
               </div>
-          </Route>
+          </Route>h
         </Switch>
+        <HomePage/>
         <MenuPage/>
         <AboutPage/>
         <Footer />

@@ -7,7 +7,7 @@ const HomePage = () => {
     margin: '0 auto',       // Center horizontally
     padding: '20px',        // Padding
     backgroundColor: '#f7f7f7',  // Background color
-    backgroundImage: 'url("your-background-image-url.jpg")',  // Background image
+    backgroundImage: 'url("https://images.pexels.com/photos/3285135/pexels-photo-3285135.jpeg?auto=compress&cs=tinysrgb&w=400")',  // Background image
     backgroundSize: 'cover',  // Background image size
   };
 

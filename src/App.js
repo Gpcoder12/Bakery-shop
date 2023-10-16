@@ -6,6 +6,7 @@ import MenuPage from './MenuPage';
 import Footer from './Footer';
 import './App.css';
 import HomePage from './HomePage';
+import Header from './Header';
 
 
 function App() {

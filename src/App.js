@@ -10,18 +10,16 @@ function App() {
     <Router>
       <div>
         <Navigation />
-        <Routes>
+        <Switch>
           <Route path="/about" component={AboutPage} />
           <Route path="/menu" component={MenuPage} />
           <Route path="/">
             <div className="container">
               <h1>Welcome to Sweet Harmony Bakery</h1>
-              where every bite is a delight!
-              <p></p>
-              <img src="bakery-image.jpg" alt="Bakery" className="img-fluid" />
-            </div>
+              <p>where every bite is a delight!</p>
+              </div>
           </Route>
-        </Routes>
+        </Switch>
         <Footer />
       </div>
     </Router>

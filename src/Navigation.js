@@ -1,23 +1,35 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navigation.css'; // Import the CSS file
 
-const Navigation = () => {
+const Header = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About Us</Link>
-        </li>
-        <li>
-          <Link to="/menu">Menu</Link>
-        </li>
-      </ul>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <a className="navbar-brand" href="/">Your Logo</a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav">
+          <li className="nav-item active">
+            <a className="nav-link" href="/">Home</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/about">About</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 };
 
-export default Navigation;
+export default Header;

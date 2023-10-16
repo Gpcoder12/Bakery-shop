@@ -6,7 +6,7 @@ nav ul {
   }
   
   nav li {
-    margin: 0 20px;
+    margin: 0 30px;
   }
   
   nav a {
@@ -16,6 +16,6 @@ nav ul {
   }
   
   nav a:hover {
-    color: #ff6600;
+    color: #004087;
   }
   

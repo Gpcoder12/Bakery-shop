@@ -34,8 +34,8 @@ nav a:hover {
 
 /* Style the home container */
 .home-container {
-  max-width:800px;
-  max-height: 800px;
+  max-width:  650px;
+  max-height:650px;
   border: 3px solid teal;
   margin: 0 auto; /* Center the container horizontally */
   padding: 20px; /* Add some padding to the container */

@@ -23,7 +23,7 @@ const HomePage = ({ containerWidth, containerHeight }) => {
   };
 
   return (
-    <div style={containerStyle}>
+    <div id="HomePage"style={containerStyle}>
       <h1 style={h1Style}>Welcome to Sweet Harmony Bakery</h1>
       <p style={pStyle}>Crafting Sweet Memories, One Bite at a Time</p>
     </div>

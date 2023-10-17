@@ -1,45 +1,36 @@
 import React from 'react';
-import './MenuPage.css';
 
 const MenuPage = () => {
   return (
-    <div className="container">
-      <h1>Menu</h1>
-      <ul className="list-group">
-        <li className="list-group-item">
-          <div className="image-container">
-            <img src="/images/apricot-tart.jpg" alt="Apricot Tart" className="img-thumbnail" />
+    <div className="container mt-5">
+      <h1 className="text-center">Our Bakery Menu</h1>
+
+      <div className="row">
+        <div className="col-md-6">
+          <div className="card mb-4">
+            <img src="item1.jpg" className="card-img-top" alt="Item 1" />
+            <div className="card-body">
+              <h5 className="card-title">BAGEL</h5>
+              <p className="card-text">Delicious freshly baked bread.</p>
+              <p className="card-text">$5.99</p>
+            </div>
           </div>
-          Apricot Tart
-        </li>
-        <li className="list-group-item">
-          <div className="image-container">
-            <img src="/images/bagel.jpg" alt="Bagel" className="img-thumbnail" />
+        </div>
+
+        <div className="col-md-6">
+          <div className="card mb-4">
+            <img src="item2.jpg" className="card-img-top" alt="Item 2" />
+            <div className="card-body">
+              <h5 className="card-title">Chealsea bun</h5>
+              <p className="card-text">Custom cakes for all occasions.</p>
+              <p className="card-text">$29.99</p>
+            </div>
           </div>
-          Bagel
-        </li>
-        <li className="list-group-item">
-          <div className="image-container">
-            <img src="/images/cheasea bun.jpg" alt="Chelsea Buns" className="img-thumbnail" />
-          </div>
-          Chelsea Buns
-        </li>
-        <li className="list-group-item">
-          <div className="image-container">
-            <img src="/images/crossiant.jpg" alt="Croissants" className="img-thumbnail" />
-          </div>
-          Croissants
-        </li>
-        <li className="list-group-item">
-          <div className="image-container">
-            <img src="/images/swiss roll.jpg" alt="Swiss Roll" className="img-thumbnail" />
-          </div>
-          Swiss Roll
-        </li>
-      </ul>
+        </div>
+        {/* Add more menu items as needed */}
+      </div>
     </div>
   );
 };
 
 export default MenuPage;
-

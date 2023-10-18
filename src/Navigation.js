@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-success" style={{ height: '100px', padding: '15px' }}>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{ height: '100px', padding: '15px' }}>
       <a className="navbar-brand" href="/">
         <img
           src="https://png.pngtree.com/png-clipart/20230301/ourmid/pngtree-bakery-logo-baker-illustration-png-image_6625246.png"

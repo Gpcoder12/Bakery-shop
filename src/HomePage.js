@@ -2,24 +2,25 @@ import React from 'react';
 
 const HomePage = ({ containerWidth, containerHeight }) => {
   const containerStyle = {
-    maxWidth: containerWidth || '800px',
+    maxWidth: containerWidth || '1000px',
     height: containerHeight || '650px', // Container dimensions
     margin: '0 auto', // Center horizontally
     padding: '20px', // Padding
     backgroundColor: '#f7f7f7', // Background color
-    backgroundImage: 'url("https://images.pexels.com/photos/3285135/pexels-photo-3285135.jpeg?auto=compress&cs=tinysrgb&w=400")', // Background image
+    backgroundImage: 'url("https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/ddbf5684906513.Y3JvcCw4MDgsNjMyLDAsMA.png")', // Background image
     backgroundSize: 'cover', // Background image size
   };
 
   const h1Style = {
-    color: 'teal', // Text color
-    fontSize: '28px', // Font size
+    color: 'green', // Text color
+    fontSize: '35px', // Font size
     fontStyle: 'italic', // Font style
     textAlign: 'center', // Text alignment
   };
 
   const pStyle = {
-    textAlign: 'center', // Text alignment
+    textAlign:'center',
+    color:'green' // Text alignment
   };
 
   return (

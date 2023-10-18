@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{ height: '100px', padding: '15px' }}>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{ height: '100px', padding: '15px',  }}>
       <a className="navbar-brand" href="/">
         <img
           src="https://png.pngtree.com/png-clipart/20230301/ourmid/pngtree-bakery-logo-baker-illustration-png-image_6625246.png"
@@ -24,13 +24,13 @@ const Header = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" href="/" style={{ color: 'white' }}>Home</a>
+            <a className="nav-link" href="/" style={{ color: 'green' }}>Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#AboutPage" style={{ color: 'white' }}>About</a>
+            <a className="nav-link" href="#AboutPage" style={{ color: 'green' }}>About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#MenuPage" style={{ color: 'white' }}>Menu</a>
+            <a className="nav-link" href="#MenuPage" style={{ color: 'green' }}>Menu</a>
           </li>
         </ul>
         <ul className="navbar-nav ml-auto"> {/* Align social media links to the right */}

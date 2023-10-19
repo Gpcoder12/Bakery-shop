@@ -22,7 +22,7 @@ const MenuPage = () => {
             <img src="https://media.istockphoto.com/id/1066842278/photo/danish-cinnamon-rolls-with-a-glas-of-milk-on-a-wooden-background.jpg?s=612x612&w=0&k=20&c=DmeSOXV96GFsB97WXcC2wQfrfkHeoScNPT1bs2_lu2o=" className="card-img-top" alt="Item 2" />
             <div className="card-body">
               <h5 className="card-title">Chealsea bun</h5>
-              <p className="card-text">"Experience the irresistible delight of our Chelsea Buns, freshly baked to perfection and filled with rich, sweet flavors. A heavenly treat for your taste buds!"</p>
+              <p className="card-text">"Experience the irresistible delight of our Chelsea Buns, freshly baked to perfection"</p>
               <p className="card-text">R12.99</p>
             </div>
           </div>

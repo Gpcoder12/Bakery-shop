@@ -1,7 +1,7 @@
 {
   "name": "sweet",
   "version": "0.1.0",
-  "homepage": "https://Gpcoder12.github.io/react-gh-pages",
+  "homepage": "https://Gpcoder12.github.io/bakery-app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

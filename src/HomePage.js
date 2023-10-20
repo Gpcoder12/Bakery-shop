@@ -3,7 +3,7 @@ import React from 'react';
 const HomePage = ({ containerWidth, containerHeight }) => {
   const containerStyle = {
     maxWidth: containerWidth || '1000px',
-    height: containerHeight || '650px', // Container dimensions
+    height: containerHeight || '600px', // Container dimensions
     margin: '0 auto', // Center horizontally
     padding: '20px', // Padding
     backgroundColor: '#f7f7f7', // Background color
@@ -12,15 +12,16 @@ const HomePage = ({ containerWidth, containerHeight }) => {
   };
 
   const h1Style = {
-    color: 'green', // Text color
-    fontSize: '35px', // Font size
+    color: 'brown', // Text color
+    fontSize: '45px', // Font size
     fontStyle: 'italic', // Font style
     textAlign: 'center', // Text alignment
   };
 
   const pStyle = {
     textAlign:'center',
-    color:'green' // Text alignment
+    color:'brown',
+    fontStyle:'italic'// Text alignment
   };
 
   return (

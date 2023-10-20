@@ -24,13 +24,13 @@ const Header = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" href="/" style={{ color: 'green' }}>Home</a>
+            <a className="nav-link" href="/" style={{ color: 'brown' }}>Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#AboutPage" style={{ color: 'green' }}>About</a>
+            <a className="nav-link" href="#AboutPage" style={{ color: 'brown' }}>About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#MenuPage" style={{ color: 'green' }}>Menu</a>
+            <a className="nav-link" href="#MenuPage" style={{ color: 'brown' }}>Menu</a>
           </li>
         </ul>
         <ul className="navbar-nav ml-auto"> {/* Align social media links to the right */}

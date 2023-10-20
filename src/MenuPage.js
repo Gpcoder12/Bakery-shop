@@ -45,7 +45,7 @@ const MenuPage = () => {
             <div className="card-body" style={{ color: 'brown' }}>
               <h5 className="card-title">Lemon Cake</h5>
               <p className="card-text">Bursting with the tangy goodness of freshly squeezed lemons, this moist and tender cake is a citrus-lover's dream come true.</p>
-              <p className="card-text">R27.99</p>
+              <p className="card-text">R23.99</p>
             </div>
           </div>
         </div>

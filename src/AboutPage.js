@@ -12,7 +12,7 @@ function AboutPage() {
         </div>
         <div className="col-lg-6">
           <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">About Sweet Harmony</h1>
-          <p className="lead"style={{ color:'white',fontStyle:"italic" }}>Founded by Gopolang, a passionate baker with a rich culinary background, our bakery is a haven for artisanal treats. With a deep-seated love for the art of baking, Gopolang brings years of experience to every creation. Located in the heart of Pretoria, our bakery is a warm, welcoming space where the heavenly aroma of freshly baked goods greets you at the door. From buttery croissants to intricately decorated cakes, each item is a testament to our commitment to quality and flavor. We believe in making every moment special with our delectable offerings. Come savor the taste of passion and tradition at Sweet Harmony.</p>
+          <p className="lead"style={{ color:'green',fontStyle:"italic" }}>Founded by Gopolang, a passionate baker with a rich culinary background, our bakery is a haven for artisanal treats. With a deep-seated love for the art of baking, Gopolang brings years of experience to every creation. Located in the heart of Pretoria, our bakery is a warm, welcoming space where the heavenly aroma of freshly baked goods greets you at the door. From buttery croissants to intricately decorated cakes, each item is a testament to our commitment to quality and flavor. We believe in making every moment special with our delectable offerings. Come savor the taste of passion and tradition at Sweet Harmony.</p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Learn more</button>
           </div>

@@ -3,7 +3,7 @@ import'./footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer bg-success text-light">
+    <footer className="footer bg-light text-success">
       <div className="container">
         <div className="row">
           <div className="col-md-6">

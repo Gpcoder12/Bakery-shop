@@ -33,7 +33,7 @@ const MenuPage = () => {
             <img src="https://img.freepik.com/free-photo/delicious-glazed-doughnuts-arrangement_23-2150674022.jpg?size=626&ext=jpg&ga=GA1.2.783724358.1697279446&semt=ais" className="card-img-top" alt="Item 3" />
             <div className="card-body" style={{ color: 'brown' }}>
               <h5 className="card-title">Doughnuts</h5>
-              <p className="card-text">Delight in the irresistible indulgence of our delectable doughnuts. Handcrafted with love, our doughnuts are the epitome of sweet temptation.</p>
+              <p className="card-text">Delight in the irresistible indulgence of our delectable doughnuts.</p>
               <p className="card-text">R22.99</p>
             </div>
           </div>

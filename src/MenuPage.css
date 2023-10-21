@@ -3,6 +3,7 @@
 .container {
     padding: 20px;
     text-align: center;
+
   }
   
   h1 {
@@ -29,7 +30,7 @@
   }
   
   .img-thumbnail {
-    border: none;
+    border: solid 3px;
     border-radius: 10px;
   }
   
